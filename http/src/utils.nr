@@ -1,4 +1,5 @@
-use std::hash::poseidon::bn254::hash_1;
+use poseidon::bn254::hash_1;
+//use std::hash::poseidon::bn254::hash_1;
 
 // TODO: can we use generics for input?
 pub fn polynomial_digest<let N: u32>(

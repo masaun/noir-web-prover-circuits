@@ -2,7 +2,8 @@ use crate::data::{http_data, http_data_long_header};
 use crate::parser::Parser;
 use crate::setup::SetupState;
 use crate::utils::{hash_accumulate, polynomial_digest};
-use dep::std::hash::poseidon::bn254::hash_2;
+use poseidon::bn254::hash_2;
+//use dep::std::hash::poseidon::bn254::hash_2;
 
 global NUM_HEADERS: u32 = 10;
 
