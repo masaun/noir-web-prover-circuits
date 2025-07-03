@@ -1,4 +1,4 @@
-use poseidon::bn254::hash_1;
+use poseidon::poseidon::bn254::hash_1;
 //use std::hash::poseidon::bn254::hash_1;
 
 // TODO: can we use generics for input?
